@@ -6,7 +6,7 @@ To install, just run:
 go get github.com/heliojuniorkroger/golang-bing-wallpaper
 ```
 ## Getting the wallpaper
-Here a example code of how to get the wallpaper:
+You should use the **bingWallpaper.Get()** function to get the wallpaper, there are two parameters that you need to pass to the function to make it work. The first parameter is how many wallpapers do you want, and the second is the locale of the wallpaper. Here is some example of code: 
 ```go
 package main
 
